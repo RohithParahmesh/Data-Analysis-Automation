@@ -1,7 +1,0 @@
-# Required for the Streamlit app
-streamlit==1.4.0
-pandas==1.3.5
-numpy==1.21.4
-matplotlib==3.5.1
-seaborn==0.11.2
-scikit-learn==1.0.1
