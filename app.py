@@ -61,11 +61,18 @@ def main():
     st.markdown(custom_css, unsafe_allow_html=True)
 
     # Sidebar with activities selection
-    activities = ["Exploratory Data Analysis", "Data Visualization", "Data Preprocessing", "Machine Learning"]
+    activities = ["Home", "Exploratory Data Analysis", "Data Visualization", "Data Preprocessing", "Machine Learning"]
     choice = st.sidebar.radio("Select Activity", activities)
 
     # Main content based on the selected activity
-    if choice == "Exploratory Data Analysis":
+    if choice == "Home":
+        st.header("Welcome to Data with Imama Kainat")
+        st.write("""
+        This application offers a variety of tools to help you explore, visualize, preprocess, and analyze your data. 
+        You can perform Exploratory Data Analysis, visualize your data, preprocess it for machine learning, and even apply 
+        clustering algorithms. Please select an activity from the sidebar to get started.
+        """)
+    elif choice == "Exploratory Data Analysis":
         st.header("Exploratory Data Analysis ")
 
         # Upload dataset
