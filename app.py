@@ -271,7 +271,7 @@ def main():
                 st.error(f"An error occurred: {e}")
 
     # Footer
-    st.markdown('<p class="stFooter">Developed by Imama Kainat with Streamlit</p>', unsafe_allow_html=True)
+    st.markdown('<p class="stFooter">Developed by Imama Kainat</p>', unsafe_allow_html=True)
 
 def handle_missing_values(df):
     """Handle missing values in the DataFrame."""
