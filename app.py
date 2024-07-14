@@ -66,7 +66,7 @@ def main():
 
     # Main content based on the selected activity
     if choice == "Exploratory Data Analysis":
-        st.header("Exploratory Data Analysis with Imama Kainat")
+        st.header("Exploratory Data Analysis ")
 
         # Upload dataset
         uploaded_file = st.file_uploader("Upload a dataset", type=["csv", "txt", "xlsx"])
@@ -126,7 +126,7 @@ def main():
                 st.error(f"An error occurred: {e}")
 
     elif choice == "Data Visualization":
-        st.header("Data Visualization with Imama Kainat")
+        st.header("Data Visualization ")
         # Upload dataset
         uploaded_file = st.file_uploader("Upload a dataset", type=["csv", "txt", "xlsx"])
 
@@ -169,7 +169,7 @@ def main():
                 st.error(f"An error occurred: {e}")
 
     elif choice == "Data Preprocessing":
-        st.header("Data Preprocessing with Imama Kainat")
+        st.header("Data Preprocessing ")
 
         # Upload dataset
         uploaded_file = st.file_uploader("Upload a dataset for preprocessing", type=["csv", "txt"])
@@ -216,7 +216,7 @@ def main():
                 st.error(f"An error occurred: {e}")
 
     elif choice == "Machine Learning":
-        st.header("Machine Learning with Imama Kainat")
+        st.header("Machine Learning ")
 
         # Upload dataset
         uploaded_file = st.file_uploader("Upload a dataset for clustering", type=["csv", "txt"])
