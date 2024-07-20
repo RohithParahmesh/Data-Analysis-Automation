@@ -1,7 +1,7 @@
 import streamlit as st  # For creating web apps
 import pandas as pd  # For data manipulation and analysis
 import numpy as np  # For numerical operations
-import matplotlib.pyplot as plt  # For plotting graphs
+import matplotlib.pyplot as plt  # For plotting graphs ,plt.tight_layout()
 import seaborn as sns  # For statistical data visualization
 from sklearn.preprocessing import LabelEncoder, StandardScaler  # For data preprocessing
 from sklearn.decomposition import PCA  # For Principal Component Analysis
